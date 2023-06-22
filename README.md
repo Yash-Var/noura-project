@@ -18,6 +18,11 @@ Many students and working professionals struggle to find the time and motivation
 - Firebase
 
 --- 
+# Dependencies
+
+*** add any locally installed dependencies here ***
+
+---
 
 # Getting Started with Create React App
 
