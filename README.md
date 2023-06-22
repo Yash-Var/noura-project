@@ -5,11 +5,11 @@ Many students and working professionals struggle to find the time and motivation
 
 # TO-DOs
 
-- [] create notifications
-- [] track user preferences
-- [] js animation library for animation effects
-- [] create database to store user and habit related data
-- [] publish to chrome extension store
+- [ ] create notifications
+- [ ] track user preferences
+- [ ] js animation library for animation effects
+- [ ] create database to store user and habit related data
+- [ ] publish to chrome extension store
 
 # What we're using
 
