@@ -1,3 +1,24 @@
+# Noura
+## The Chrome Extension thats here to help!
+
+Many students and working professionals struggle to find the time and motivation to prioritize their health and wellness. This often leads to unhealthy habits and can negatively impact their overall well-being and productivity. Noura aims to address this problem by providing a solution that helps users take time off work to develop healthier habits and make self-care a priority.
+
+# TO-DOs
+
+- [] create notifications
+- [] track user preferences
+- [] js animation library for animation effects
+- [] create database to store user and habit related data
+- [] publish to chrome extension store
+
+# What we're using
+
+- React
+- MongoDB
+- Firebase
+
+--- 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
