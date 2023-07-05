@@ -259,7 +259,7 @@ const Focus = () => {
   return (
     <div
       style={{
-        background: '#222222',
+        background: '#243340',
         width: isDropdownOpen ? '280px' : '280px',
         height: isDropdownOpen ? '286px' : '162px',
         top: '96px',
