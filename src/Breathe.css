@@ -1,0 +1,375 @@
+.breath {
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 96px;
+  margin-left: 1136px;
+  margin-right: 24px;
+  border: 1px none;
+  border-radius: 4px;
+  height: 286px;
+  overflow-x: visible;
+  position: relative;
+  width: 280px;
+}
+
+
+
+.breath .frame {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  left: 199px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 237px;
+  width: fit-content;
+}
+
+.breath .text-wrapper {
+  color: #222222;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.breath .p {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+  width: 248px;
+}
+
+.breath .frame-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  left: 105px;
+  position: absolute;
+  top: 114px;
+  width: fit-content;
+}
+
+.breath .div-wrapper {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 4px 16px;
+  position: relative;
+  width: 69px;
+}
+
+.breath .text-wrapper-2 {
+  color: #222222;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-decoration: underline;
+  width: fit-content;
+}
+
+.breath .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.breath .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 195px;
+  left: 16px;
+  position: absolute;
+  top: 8px;
+  width: fit-content;
+}
+
+.breath .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.breath .cancel {
+  height: 20px;
+  min-width: 20px;
+  position: relative;
+}
+
+
+
+/* BREATHE2.CSS ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->*/
+
+
+
+
+
+
+.breath2 {
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border: 1px none;
+  border-radius: 4px;
+  height: 286px;
+  width: 280px;
+  z-index: 10;
+  position: absolute;
+
+  overflow-x: visible;
+}
+
+.breath2 .div {
+  background-color: #222222;
+  border: 1px none;
+  border-radius: 4px;
+  height: 286px;
+  top: 0px;
+  right: 0px;
+  overflow-x: hidden;
+  position: relative;
+  width: 280px;
+}
+
+
+.breath2 .frame2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 195px;
+  left: 16px;
+  position: absolute;
+  top: 8px;
+  width: fit-content;
+}
+
+.breath2 .Noura {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.breath2 .cancel {
+  height: 20px;
+  min-width: 20px;
+  position: relative;
+}
+
+.breath2 .timer-breathe2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  white-space: nowrap;
+}
+
+.breath2 .breathe-in{
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 106px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 250px;
+  white-space: nowrap;
+}
+
+.breath2 .overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 74.5px;
+  height: 149px;
+  left: 65px;
+  position: absolute;
+  top: 86px;
+  width: 149px;
+}
+
+.breath2 .ellipse {
+  background-color: #c2c2c2;
+  border-radius: 35.5px;
+  height: 71px;
+  left: 39px;
+  position: absolute;
+  top: 39px;
+  width: 71px;
+}
+
+.breath2 .ellipse-2 {
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 50px;
+  left: 50px;
+  position: absolute;
+  top: 49px;
+  width: 50px;
+}
+
+@keyframes ellipse2Animation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.breath2 .ellipse-2.animating {
+  animation: ellipse2Animation 2s linear infinite;
+}
+
+
+
+/* BREATHE3 ->->->->-->->->->->->->->->->->->->->->->->->->->->->->->->*/
+
+.breath3 {
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.breath3 .div {
+  background-color: #222222;
+  border: 1px none;
+  border-radius: 4px;
+  height: 286px;
+  overflow-x: hidden;
+  position: relative;
+  width: 280px;
+}
+
+.breath3 .frame3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 195px;
+  left: 16px;
+  position: absolute;
+  top: 8px;
+  width: fit-content;
+}
+
+.breath3 .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.breath3 .cancel {
+  height: 20px;
+  min-width: 20px;
+  position: relative;
+}
+
+.breath3 .p {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 63px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  white-space: nowrap;
+}
+
+.breath3 .div-wrapper {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  left: 116px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 237px;
+  width: fit-content;
+}
+
+.breath3 .another-session {
+  color: #222222;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.breath3 .temp-preferences {
+  height: 100px;
+  left: 90px;
+  position: absolute;
+  top: 93px;
+  width: 100px;
+}
+

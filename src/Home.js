@@ -1,7 +1,13 @@
-import React from 'react';
-import './Home.css';
+import React, { useState } from "react";
+import "./Home.css";
+import Focus from "./Focus";
 
-function Home() {
+const Home = () => {
+	const [startClicked, setStartClicked] = useState(false);
+	const handleStartClick = () => {
+		setStartClicked(true);
+	}
+
 	return (
 		<div className='container'>
 			<nav className='nav'>
@@ -14,9 +20,13 @@ function Home() {
 					<div className='btn-item'>
 						<button type='button' id='b1' className='button'>Stretch</button>
 					</div>
-					<div className='btn-item'>
-						<button type='button' id='b2' className='button'>Focus</button>
-					</div>
+					{!startClicked ? (
+						<div className='btn-item' onClick={handleStartClick}>
+							<button type='button' id='b2' className='button'>Focus</button>
+						</div>
+					) : (
+						<Focus />
+					)}
 					<div className='btn-item'>
 						<button type='button' id='b3' className='button'>Breathe</button>
 					</div>
@@ -32,6 +42,6 @@ function Home() {
 				<button className='next'>Next</button>
 			</div>
 		</div>
-	)
-}
+	);
+};
 export default Home;
