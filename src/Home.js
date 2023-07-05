@@ -1,35 +1,51 @@
-import React from 'react';
-import './Home.css';
+import React, { useState } from "react";
+import "./Home.css";
+import Focus from "./Focus";
 
-function Home() {
-	return (
-		<div className='container'>
-			<nav>
-				<div className='title'>Noura</div></nav>
-			<div className='button-select'>
-				<p className='prompt'>What would you like to do?</p>
-				<div className='grid-container'>
-					<div className='grid-item'>
-						<button type='button' id='b1'>Stretch</button>
-					</div>
-					<div className='grid-item'>
-						<button type='button' id='b2'>Focus</button>
-					</div>
-					<div className='grid-item'>
-						<button type='button' id='b3'>Breathe</button>
-					</div>
-					<div className='grid-item'>
-						<button type='button' id='b4'>Water</button>
-					</div>
-					<div className='grid-item'>
-						<button type='button' id='b5'>Custom</button>
-					</div>
-				</div>
-			</div>
-			<div className='bottom-button'>
-				<button className='next'>Next</button>
-			</div>
-		</div>
-	)
-}
+const Home = () => {
+	const [startClicked, setStartClicked] = useState(false);
+
+  const handleStartClick = () => {
+	setStartClicked(true);
+  };
+
+ 
+
+  return (
+    <div className="box">
+      <div className="onboarding-alt">
+        <div className="frame">
+          <div className="text-wrapper">Next</div>
+        </div>
+        <p className="p">What would you like to do?</p>
+        <div className="div">
+          <div className="text-wrapper-2">Noura</div>
+          <img className="cancel" alt="Cancel" src="cancel.png" />
+        </div>
+        <div className="group">
+          <div className="div-wrapper" >
+            <div className="text-wrapper">Breaks</div>
+          </div>
+          {!startClicked ? (
+        <div className="frame-2" onClick={handleStartClick}>
+          <div className="text-wrapper">Focus</div>
+        </div>
+      ) : (
+        <Focus />
+      )}
+          <div className="frame-3" >
+            <div className="text-wrapper">Water</div>
+          </div>
+          <div className="frame-4" >
+            <div className="text-wrapper">Breath</div>
+          </div>
+        </div>
+        <div className="frame-5">
+          <div className="text-wrapper-3">Stretch</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default Home;
