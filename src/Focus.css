@@ -35,47 +35,47 @@
 .timer{
   color: #FFF;
   width: 50%;
-font-size: 40px;
-font-family: Inter;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 40px;
-margin-left: 16px;
+  font-size: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  margin-left: 16px;
 }
 
 .start-btn{
   display: flex;
-padding: 8px 16px;
-justify-content: center;
-align-items: center;
-gap: 8px;
-border-radius: 8px;
-background: #FFF;
-margin: 48px, 58px, 80px, 156px ;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #FFF;
+  margin: 48px, 58px, 80px, 156px;
 }
 
 .reset{
-padding-right: 16px;
-flex-shrink: 0;
-background: transparent;
+  padding-right: 16px;
+  flex-shrink: 0;
+  background: transparent;
 }
 
 .t-cont{
   display: flex;
-width: 248px;
-justify-content: space-between;
-align-items: center;
+  width: 248px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .timer-btn{
   color: #FFF;
   background: transparent;
-font-size: 14px;
-font-family: Inter;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 hr{
@@ -88,13 +88,13 @@ hr{
 
 th{
   color: #FFF;
-font-size: 14px;
-font-family: Inter;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-left: 15px;
-padding-right: 15px;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 20px;
 }
 
@@ -302,7 +302,6 @@ hr {
 .dropdown-menu .duration-table {
   margin-top: 5px;
   border-spacing: 10px;
-
 }
 
 .dropdown-menu .duration-button {

@@ -264,7 +264,7 @@ const Focus = () => {
         height: isDropdownOpen ? '286px' : '162px',
         top: '96px',
         left: '1136px',
-        position: 'absolute',
+        // position: 'absolute',
       }}
     >
       <div className='t-cont'>
