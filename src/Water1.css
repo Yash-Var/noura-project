@@ -1,0 +1,125 @@
+.water1 {
+    align-items: flex-end;
+    background-color: var(--log-cabin);
+    border: 1px none;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 286px;
+    overflow: hidden;
+    padding: 8px;
+    width: 280px;
+  }
+  
+  .frame-29 {
+    align-items: flex-start;
+    display: flex;
+    gap: 195px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .noura {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .cancel {
+    height: 20px;
+    min-width: 20px;
+    position: relative;
+  }
+  
+  .what-is-your-target {
+    align-self: flex-start;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 8px;
+    margin-top: 23px;
+    min-height: 19px;
+    white-space: nowrap;
+  }
+  
+  .frame-30 {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 25px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .frame-11 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 4px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding: 4px 16px;
+    position: relative;
+    width: 69px;
+  }
+  
+  .number {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-decoration: underline;
+    width: fit-content;
+  }
+  
+  .oz {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .the-us-national-ac {
+    color: #ffffffbf;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 8px;
+    margin-top: 23px;
+    min-height: 72px;
+    width: 248px;
+  }
+  
+  .frame-27 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-right: 8px;
+    margin-top: 22px;
+    padding: 8px 16px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .next {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  
