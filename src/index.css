@@ -12,3 +12,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/64a6aadad20a70b0c7966fc5.64a6aadc381a8751b89eedd8.64a6aade9654ba018ab6591b.rcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+:root { 
+  --black: #000000;
+  --log-cabin: #222222;
+  --white: #ffffff;
+ 
+  --font-size-l: 14px;
+  --font-size-m: 10px;
+  --font-size-xl: 16px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-log-cabin-14px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
