@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Breathe.css";
+import Breathe3 from "./Breathe3.js";
 
 const Breathe2 = ({ sessionDuration }) => {
   const [timer, setTimer] = useState(sessionDuration * 60);
+  const [message, setMessage] = useState("Breathe In");
+  const [isTimerComplete, setTimerComplete] = useState(false);
 
   useEffect(() => {
     let interval = null;
@@ -18,6 +21,31 @@ const Breathe2 = ({ sessionDuration }) => {
     };
   }, [timer]);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setMessage((prevMessage) => {
+        if (prevMessage === "Breathe In") {
+          return "Hold";
+        } else if (prevMessage === "Hold") {
+          return "Exhale";
+        } else if (prevMessage === "Exhale") {
+          return "Breathe In";
+        }
+        return prevMessage;
+      });
+    }, 2000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (timer === 0) {
+      setTimerComplete(true);
+    }
+  }, [timer]);
+
   const formatTime = (timeInSeconds) => {
     const minutes = Math.floor(timeInSeconds / 60);
     const seconds = timeInSeconds % 60;
@@ -26,9 +54,9 @@ const Breathe2 = ({ sessionDuration }) => {
     return `${formattedMinutes}:${formattedSeconds}`;
   };
 
-  useEffect(() => {
-    setTimer(sessionDuration * 60);
-  }, [sessionDuration]);
+  if (isTimerComplete) {
+    return <Breathe3 />;
+  }
 
   return (
     <div className="breath2">
@@ -38,7 +66,7 @@ const Breathe2 = ({ sessionDuration }) => {
           <img className="cancel" alt="Cancel" src="cancel.png" />
         </div>
         <div className="timer-breathe2">{formatTime(timer)}</div>
-        <div className="breathe-in">breath in</div>
+        <div className="breathe-msg">{message}</div>
         <div className="overlap-group">
           <div className="ellipse" />
           <div className="ellipse-2" />
