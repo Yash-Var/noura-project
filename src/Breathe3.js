@@ -1,5 +1,6 @@
 import React from "react";
 import "./Breathe.css";
+import congo from "./temp_preferences_custom.png";
 
 const Breathe3 = () => {
   return (
@@ -13,7 +14,7 @@ const Breathe3 = () => {
         <div className="div-wrapper">
           <div className="another-session">Another Session?</div>
         </div>
-        <img className="temp-preferences" alt="Temp preferences" src="temp-preferences-custom.png" />
+        <img className="temp-preferences" alt="Temp preferences" src={congo} />
       </div>
     </div>
   );
