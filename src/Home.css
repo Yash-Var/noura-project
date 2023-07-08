@@ -20,6 +20,7 @@
 	border: 1px solid #f2f2f2;
 	color: #f2f2f2;
 	background-color: #243340;
+	font-size: 15px;
 	padding-bottom: 2px;
 }
 .close:hover {
@@ -60,11 +61,12 @@ button:hover {
 	justify-content: center;
 }
 .btn-item {
-	padding: .5em;
+	padding: 6px;
 }
 .bottom-button {
 	position: absolute;
 	right: 5%;
+	bottom: 5%;
 }
 .next {
 	font-family: 'Inter', sans-serif;
@@ -84,4 +86,7 @@ button:hover {
 	color: #f2f2f2;
 	background-color: #567373;
 	transform: translateY(1px);
+}
+.hidden {
+  display: none;
 }

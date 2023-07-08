@@ -57,9 +57,11 @@
 }
 
 .reset{
-  padding-right: 16px;
+  padding-right: 8px;
+  padding-top: 8px;
   flex-shrink: 0;
   background: transparent;
+  border: none;
 }
 
 .t-cont{
@@ -87,10 +89,14 @@
 .timer-btn:active {
   border-bottom: 1px solid #f2f2f2;
 }
+.timer-btn:focus {
+  border-bottom: 1px solid #f2f2f2;
+}
 
 .dropdown-toggle{
   background: transparent;
- color: #FFF;
+  border: none;
+  color: #f2f2f2;
 }
 
 th{

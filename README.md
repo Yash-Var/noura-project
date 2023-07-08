@@ -12,6 +12,7 @@ Many students and working professionals struggle to find the time and motivation
 - [ ] js animation library for animation effects
 - [ ] create database to store user and habit related data
 - [ ] publish to chrome extension store
+- [ ] focus dropdown needs to be over top of back button, not under it
 
 ---
 
