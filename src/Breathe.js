@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Breathe.css';
 import Breathe2 from './Breathe2';
+import Breathe3 from './Breathe3';
 
 const Breathe = () => {
   const [startClicked, setStartClicked] = useState(false);
@@ -33,8 +34,9 @@ const Breathe = () => {
         <div className="frame" onClick={handleStartClick}>
           <div className="Start">Start</div>
         </div>
-      ) : (
-        <Breathe2 />
+      ) : ( sessionDuration>0 ? 
+        <Breathe2 sessionDuration={sessionDuration} /> : <Breathe3 />
+      
       )}
       <p className="p">How long do you want this session to last?</p>
       <div className="frame-2">
