@@ -1,3 +1,5 @@
+
+
 .water1 {
     align-items: flex-end;
     background-color: var(--log-cabin);
@@ -5,7 +7,7 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    height: 286px;
+    height: 310px;
     overflow: hidden;
     padding: 8px;
     width: 280px;
@@ -44,7 +46,8 @@
     margin-left: 8px;
     margin-top: 23px;
     min-height: 19px;
-    white-space: nowrap;
+    margin-bottom: 1rem;
+    /* white-space: nowrap; */
   }
   
   .frame-30 {
@@ -60,7 +63,7 @@
   
   .frame-11 {
     align-items: center;
-    background-color: var(--white);
+    /* background-color: var(--white); */
     border-radius: 4px;
     display: flex;
     gap: 8px;
@@ -76,7 +79,7 @@
     margin-top: -1.00px;
     position: relative;
     text-decoration: underline;
-    width: fit-content;
+    width: 69px;
   }
   
   .oz {
@@ -102,7 +105,7 @@
   
   .frame-27 {
     align-items: center;
-    background-color: var(--white);
+    /* background-color: var(--white); */
     border-radius: 8px;
     display: flex;
     gap: 8px;
@@ -120,6 +123,7 @@
     margin-top: -1.00px;
     position: relative;
     width: fit-content;
+    background-color: white;
   }
   
   

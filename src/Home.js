@@ -56,13 +56,11 @@
 // };
 // export default Home;
 
-
-
-
 import React, { useState } from "react";
 import "./Home.css";
 import Focus from "./Focus";
 import Water from "./Water";
+import { Link } from "react-router-dom";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 const Home = () => {
@@ -92,8 +90,7 @@ const Home = () => {
     } else if (buttonId === "Back") {
       setSelectedButton(null);
       setStartClicked(false);
-    } 
-    else {
+    } else {
       setSelectedButton(buttonId);
     }
   };
@@ -146,14 +143,16 @@ const Home = () => {
             </button>
           </div>
           <div className="btn-item">
-            <button
-              type="button"
-              id="b4"
-              className="button"
-              onClick={() => handleButtonClick("b4")}
-            >
-              Water
-            </button>
+            <Link to="/water" state={{ data: 0 }}>
+              <button
+                type="button"
+                id="b4"
+                className="button"
+                onClick={() => handleButtonClick("b4")}
+              >
+                Water
+              </button>
+            </Link>
           </div>
           <div className="btn-item">
             <button
@@ -167,9 +166,13 @@ const Home = () => {
           </div>
         </div>
         {startClicked && <Focus />}
+        {/* {startClicked && <Water /> && selectedButton === "b4"} */}
+        {selectedButton}
       </div>
       <div className="bottom-button">
-        <button className="next" onClick={() => handleButtonClick("Back")}>{selectedButton ? "Back" : "Next"}</button>
+        <button className="next" onClick={() => handleButtonClick("Back")}>
+          {selectedButton ? "Back" : "Next"}
+        </button>
       </div>
     </div>
   );
