@@ -1,12 +1,16 @@
 import React from "react";
-import "./getup.css";
+import "./geet.css";
+import { Link } from "react-router-dom";
 
 export const Getup = () => {
   return (
-    <div className="getup">
+    <div className="getup1">
       <div className="div">
         <div className="frame">
-          <div className="text-wrapper">Start</div>
+          <Link to="/getup1">
+            {" "}
+            <div className="text-wrapper">Start</div>
+          </Link>
         </div>
         <p className="p">
           It’s recommended to get up and move a few minutes each hour during a
@@ -23,7 +27,7 @@ export const Getup = () => {
           <img
             className="cancel"
             alt="Cancel"
-            src="https://generation-sessions.s3.amazonaws.com/671c29488cc7891593b9d53d285a1593/img/cancel@2x.png"
+            src="https://generation-sessions.s3.amazonaws.com/a8a2fa6862b771f611809b24d0ebeece/img/cancel@2x.png"
           />
         </div>
       </div>

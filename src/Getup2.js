@@ -1,9 +1,9 @@
 import React from "react";
-import "./getup2.css";
-
+// import "./getup2.css";
+import "./geet3.css";
 export const Getup2 = () => {
   return (
-    <div className="getup">
+    <div className="getup2">
       <div className="div">
         <div className="frame">
           <div className="text-wrapper">Stop</div>

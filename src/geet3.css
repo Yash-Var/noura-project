@@ -1,4 +1,4 @@
-.getup {
+.getup2 {
     background-color: #222222;
     display: flex;
     flex-direction: row;
@@ -6,7 +6,7 @@
     width: 320px;
   }
   
-  .getup .div {
+  .getup2 .div {
     background-color: #222222;
     border: 1px none;
     border-radius: 4px;
@@ -16,7 +16,7 @@
     width: 280px;
   }
   
-  .getup .frame {
+  .getup2 .frame {
     align-items: center;
     background-color: #ffffff;
     border-radius: 8px;
@@ -30,7 +30,7 @@
     width: fit-content;
   }
   
-  .getup .text-wrapper {
+  .getup2 .text-wrapper {
     color: #222222;
     font-family: "Inter", Helvetica;
     font-size: 14px;
@@ -42,7 +42,7 @@
     width: fit-content;
   }
   
-  .getup .p {
+  .getup2 .p {
     color: #ffffff;
     font-family: "Inter", Helvetica;
     font-size: 16px;
@@ -57,7 +57,7 @@
     width: 248px;
   }
   
-  .getup .text-wrapper-2 {
+  .getup2 .text-wrapper-2 {
     color: #ffffffbf;
     font-family: "Inter", Helvetica;
     font-size: 16px;
@@ -71,7 +71,7 @@
     width: 248px;
   }
   
-  .getup .frame-2 {
+  .getup2 .frame-2 {
     align-items: flex-start;
     display: flex;
     gap: 195px;
@@ -81,7 +81,7 @@
     width: fit-content;
   }
   
-  .getup .text-wrapper-3 {
+  .getup2 .text-wrapper-3 {
     color: #ffffff;
     font-family: "Inter", Helvetica;
     font-size: 14px;
@@ -93,13 +93,13 @@
     width: fit-content;
   }
   
-  .getup .img {
+  .getup2 .img {
     height: 20px;
     min-width: 20px;
     position: relative;
   }
   
-  .getup .frame-3 {
+  .getup2 .frame-3 {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -109,7 +109,7 @@
     width: 248px;
   }
   
-  .getup .h-1 {
+  .getup2 .h-1 {
     color: #ffffff;
     font-family: "Inter", Helvetica;
     font-size: 40px;
@@ -122,7 +122,7 @@
     width: fit-content;
   }
   
-  .getup .div-wrapper {
+  .getup2 .div-wrapper {
     align-items: center;
     background-color: #ffffff;
     border-radius: 8px;

@@ -113,14 +113,16 @@ const Home = () => {
           }`}
         >
           <div className="btn-item">
-            <button
-              type="button"
-              id="b1"
-              className="button"
-              onClick={() => handleButtonClick("b1")}
-            >
-              Stretch
-            </button>
+            <Link to="/getup">
+              <button
+                type="button"
+                id="b1"
+                className="button"
+                onClick={() => handleButtonClick("b1")}
+              >
+                Stretch
+              </button>
+            </Link>
           </div>
           <div className="btn-item">
             <button
