@@ -7,11 +7,13 @@ import Home from "./Home";
 import reportWebVitals from "./reportWebVitals";
 import Water from "./Water";
 import Routerr from "./Routerr";
+import { Getup2 } from "./Getup2";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Routerr />
+    {/* <Routerr /> */}
+    <Getup2 />
   </React.StrictMode>
 );
 
